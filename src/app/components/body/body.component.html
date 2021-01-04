@@ -1,0 +1,29 @@
+<div class="row">
+    <h1 class="text-center">Hello World!</h1>
+    <br>
+    <hr>
+    <p>Hello, I'm Juan Villa, and in this project, it's my first *Hello World* with Angular, I don't make it so awesome, but there are some examples of how some structural directives work.</p>
+    <br><br><br>
+    <div class="col">
+        <h1>*ngIf</h1>
+        <hr>
+
+        <div *ngIf="show" class="card text-white bg-primary mb-3" style="max-width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title">{{ sentence.author }}</h5>
+                <p class="card-text">{{ sentence.message }}</p>
+            </div>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button (click)="show = !show" class="btn btn-outline-primary" type="button">Show / Hide</button>
+        </div>
+    </div>
+    <div class="col">
+        <h1>*ngFor</h1>
+        <hr>
+        <ul class="list-group">
+            <li *ngFor="let character of characters; let i = index" class="list-group-item"> {{ i + 1 }} - {{ character }}</li>
+        </ul>
+    </div>
+</div>
