@@ -1,5 +1,5 @@
 # Information
-:earth_africa: :earth_americas: :earth_asia: *Good morning everyone, with great emotion I can tell you that here is my fist Hello World on Angular, here is some examples of how some structural directives work, like *nfIf or *ngFor.* :earth_africa: :earth_americas: :earth_asia:
+:earth_africa: :earth_americas: :earth_asia: *Good morning everyone, with great emotion I can tell you that here is my fist Hello World on Angular, here is some examples of how some structural directives work, like ngIf or ngFor.* :earth_africa: :earth_americas: :earth_asia:
 > Juan Villa
 
 ## Development Server
